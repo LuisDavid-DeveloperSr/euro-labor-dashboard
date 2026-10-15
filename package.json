@@ -1,0 +1,23 @@
+{
+  "name": "labor-stast-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node servidor.js",
+    "build": "vite build",
+    "start": "node servidor.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-simple-maps": "^3.0.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.3.1"
+  }
+}
